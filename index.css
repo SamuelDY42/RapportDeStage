@@ -1,0 +1,36 @@
+.bloc-titre{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.cadre{
+    border: 2px black solid;
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.developpeur{
+    background-color: aliceblue;
+    color: blue;
+}
+
+.graphiste{
+    background-color: aliceblue;
+    color: blue;
+}  
+.chef-de-projet {
+background-color: aliceblue;
+color: blue;
+}
+
+.lien-cadre{
+    text-decoration: none;
+    color: blue;
+}

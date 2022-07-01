@@ -1,40 +1,83 @@
-.bloc-titre{
+.bloc-titre {
     vertical-align: middle;
     text-align: center;
 }
 
-.cadre{
+.cadre {
     border: 2px black solid;
     padding: 10px;
     margin-top: 10px;
 }
-.wrapper{
+
+.wrapper {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     justify-items: center;
 }
 
-.developpeur{
+.developpeur {
     background-color: aliceblue;
     color: blue;
 }
 
-.graphiste{
+.graphiste {
     background-color: aliceblue;
     color: blue;
-}  
+}
+
 .chef-de-projet {
-background-color: aliceblue;
-color: blue;
+    background-color: aliceblue;
+    color: blue;
 }
 
-.lien-cadre{
+.lien-cadre {
     text-decoration: none;
     color: blue;
 }
 
-.wrapper{
+.wrapper {
     vertical-align: middle;
     text-align: center;
+}
+
+#contenu {
+    min-height: 90vh;
+}
+
+.texte-blanc {
+    vertical-align: middle;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(fond.png);
+}
+
+.margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.justify{
+    text-align: justify;
+}
+.textee{
+    color: gray;
 }
